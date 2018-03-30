@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
     <script src="UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
+    <script src="" id="UL"></script>
     <script>
         function getParam() {
             var tmp = new Array();
@@ -29,8 +29,12 @@
             return [args, param];
         }
         params = getParam();
-        var gameInstance = UnityLoader.instantiate("gameContainer", params[0][0] + "/Build/" + paams[0][0] +".json", {onProgress: UnityProgress});
-    </script>
+        document.write("<script src='" + params[0][0] + "/Build/UnityLoader.js'></" + "script>")
+        //document.getElementById("UL").setAttribute("src", ")
+        </script>
+        <script>
+            var gameInstance = UnityLoader.instantiate("gameContainer", params[0][0] + "/Build/" + params[0][0] +".json", {onProgress: UnityProgress});
+        </script>
 </head>
 <body>
 <div class="webgl-content">
@@ -38,6 +42,7 @@
     <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <a href="" download="true" id="download"><div class="download"></div><script>document.getElementById("download").setAttribute("href", params[0][0] + "/tanks " + params[0][0] + ".zip")</script></a>
         <div class="title">Tanks</div>
     </div>
 </div>
