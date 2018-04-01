@@ -2,116 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d67faed-d8a6-47e0-a907-86321800aef6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/5/Build/asmCode.unityweb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/5/Build/data.unityweb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/6/Build/asmCode.unityweb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/6/Build/asmFramework.unityweb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/6/Build/asmMemory.unityweb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/6/Build/data.unityweb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/1/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/1/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/10/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/10/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/2/Build/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/2/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/2/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/3/Build/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/3/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/3/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/4/Build/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/4/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/4/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/5/Build/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/5/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/5/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/6/Build/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/6/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/6/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/7/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/7/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/8/Build/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/8/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/8/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/9/Build/UnityLoader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/9/config.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/9/description.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.0/Build/v1.0.asm.code.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.0/Build/v1.0.data.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.0/Build/v1.0.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.1/Build/v1.1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.2/Build/v1.2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.3/Build/v1.3.asm.framework.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.3/Build/v1.3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.4/Build/UnityLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.4/Build/v1.4.asm.code.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.4/Build/v1.4.asm.framework.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.4/Build/v1.4.asm.memory.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.4/Build/v1.4.data.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.4/Build/v1.4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.5/Build/UnityLoader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.5/Build/v1.5.asm.code.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.5/Build/v1.5.asm.framework.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.5/Build/v1.5.asm.memory.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.5/Build/v1.5.data.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.5/Build/v1.5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.6/Build/v1.6.asm.code.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.6/Build/v1.6.asm.framework.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.6/Build/v1.6.asm.memory.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.6/Build/v1.6.data.unityweb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.6/Build/v1.6.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/v1.7/Build/v1.7.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/game/webgl-logo.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/UnityProgress.js" afterPath="$PROJECT_DIR$/projects/.sys/UnityProgress.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/progressEmpty.Dark.png" afterPath="$PROJECT_DIR$/projects/.sys/progressEmpty.Dark.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/progressEmpty.Light.png" afterPath="$PROJECT_DIR$/projects/.sys/progressEmpty.Light.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/progressFull.Dark.png" afterPath="$PROJECT_DIR$/projects/.sys/progressFull.Dark.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/progressFull.Light.png" afterPath="$PROJECT_DIR$/projects/.sys/progressFull.Light.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/progressLogo.Dark.png" afterPath="$PROJECT_DIR$/projects/.sys/progressLogo.Dark.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/progressLogo.Light.png" afterPath="$PROJECT_DIR$/projects/.sys/progressLogo.Light.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.0/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/1/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.0/Build/v1.0.asm.framework.unityweb" afterPath="$PROJECT_DIR$/projects/1/Build/asmFramework.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.0/Build/v1.0.asm.memory.unityweb" afterPath="$PROJECT_DIR$/projects/1/Build/asmMemory.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.1/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/10/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.1/Build/v1.1.asm.code.unityweb" afterPath="$PROJECT_DIR$/projects/2/Build/asmCode.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.1/Build/v1.1.asm.framework.unityweb" afterPath="$PROJECT_DIR$/projects/2/Build/asmFramework.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.1/Build/v1.1.asm.memory.unityweb" afterPath="$PROJECT_DIR$/projects/2/Build/asmMemory.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.1/Build/v1.1.data.unityweb" afterPath="$PROJECT_DIR$/projects/2/Build/data.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.2/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/2/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.2/Build/v1.2.asm.code.unityweb" afterPath="$PROJECT_DIR$/projects/3/Build/asmCode.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.2/Build/v1.2.asm.framework.unityweb" afterPath="$PROJECT_DIR$/projects/3/Build/asmFramework.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.2/Build/v1.2.asm.memory.unityweb" afterPath="$PROJECT_DIR$/projects/3/Build/asmMemory.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.2/Build/v1.2.data.unityweb" afterPath="$PROJECT_DIR$/projects/3/Build/data.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.3/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/3/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.3/Build/v1.3.asm.code.unityweb" afterPath="$PROJECT_DIR$/projects/4/Build/asmCode.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.3/Build/v1.3.asm.memory.unityweb" afterPath="$PROJECT_DIR$/projects/4/Build/asmMemory.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.3/Build/v1.3.data.unityweb" afterPath="$PROJECT_DIR$/projects/4/Build/data.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.6/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/4/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.7/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/5/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.7/Build/v1.7.asm.code.unityweb" afterPath="$PROJECT_DIR$/projects/8/Build/asmCode.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.7/Build/v1.7.asm.framework.unityweb" afterPath="$PROJECT_DIR$/projects/8/Build/asmFramework.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.7/Build/v1.7.asm.memory.unityweb" afterPath="$PROJECT_DIR$/projects/8/Build/asmMemory.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.7/Build/v1.7.data.unityweb" afterPath="$PROJECT_DIR$/projects/8/Build/data.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.8/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/6/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.8/Build/v1.8.asm.code.unityweb" afterPath="$PROJECT_DIR$/projects/9/Build/asmCode.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.8/Build/v1.8.asm.framework.unityweb" afterPath="$PROJECT_DIR$/projects/9/Build/asmFramework.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.8/Build/v1.8.asm.memory.unityweb" afterPath="$PROJECT_DIR$/projects/9/Build/asmMemory.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.8/Build/v1.8.data.unityweb" afterPath="$PROJECT_DIR$/projects/9/Build/data.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.8/Build/v1.8.json" afterPath="$PROJECT_DIR$/projects/9/Build/data.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.9/Build/UnityLoader.js" afterPath="$PROJECT_DIR$/projects/8/Build/UnityLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.9/Build/v1.9.asm.code.unityweb" afterPath="$PROJECT_DIR$/projects/10/Build/asmCode.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.9/Build/v1.9.asm.framework.unityweb" afterPath="$PROJECT_DIR$/projects/10/Build/asmFramework.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.9/Build/v1.9.asm.memory.unityweb" afterPath="$PROJECT_DIR$/projects/10/Build/asmMemory.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.9/Build/v1.9.data.unityweb" afterPath="$PROJECT_DIR$/projects/10/Build/data.unityweb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/game/v1.9/Build/v1.9.json" afterPath="$PROJECT_DIR$/projects/10/Build/data.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/.sys/UnityProgress.js" afterPath="$PROJECT_DIR$/projects/sys/UnityProgress.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/.sys/progressEmpty.Dark.png" afterPath="$PROJECT_DIR$/projects/sys/progressEmpty.Dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/.sys/progressEmpty.Light.png" afterPath="$PROJECT_DIR$/projects/sys/progressEmpty.Light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/.sys/progressFull.Dark.png" afterPath="$PROJECT_DIR$/projects/sys/progressFull.Dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/.sys/progressFull.Light.png" afterPath="$PROJECT_DIR$/projects/sys/progressFull.Light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/.sys/progressLogo.Dark.png" afterPath="$PROJECT_DIR$/projects/sys/progressLogo.Dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/projects/.sys/progressLogo.Light.png" afterPath="$PROJECT_DIR$/projects/sys/progressLogo.Light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,11 +24,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="291">
+              <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
               <folding>
                 <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnityProgress.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/sys/UnityProgress.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="description.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="description.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/10/description.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -241,7 +149,6 @@
         <option value="$PROJECT_DIR$/projects/9/Build/9.json" />
         <option value="$PROJECT_DIR$/projects/10/Build/10.json" />
         <option value="$PROJECT_DIR$/projects/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/projects/1/description.html" />
         <option value="$PROJECT_DIR$/projects/3/description.html" />
@@ -254,6 +161,7 @@
         <option value="$PROJECT_DIR$/projects/8/description.html" />
         <option value="$PROJECT_DIR$/mp.html" />
         <option value="$PROJECT_DIR$/projects/10/description.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -291,6 +199,12 @@
               <item name="unitytanks" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="unitytanks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unitytanks" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -305,11 +219,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\unitytanks" />
       <recent name="C:\unitytanks\projects\5" />
       <recent name="C:\unitytanks\projects\6" />
       <recent name="C:\unitytanks\projects\7" />
       <recent name="C:\unitytanks\projects" />
-      <recent name="C:\unitytanks\projects\1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\unitytanks\projects\4" />
@@ -575,7 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/.sys/progressLogo.Light.png">
+    <entry file="file://$PROJECT_DIR$/projects/sys/progressLogo.Light.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -588,29 +502,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/.sys/UnityProgress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/game/dev/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,6 +618,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sys/UnityProgress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
