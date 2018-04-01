@@ -1,35 +1,91 @@
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style>
-	a {
-    	    color: blue;
-            text-decoration-line: none;
+    <title>Unity</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function getParam() {
+            var tmp = new Array();
+            var tmp2 = new Array();
+            var param = new Array();
+            var get = decodeURI(document.location.search);
+            var args = new Array();
+            if (get != '') {
+                tmp = (get.substr(1)).split('&');
+                for (var i=0; i < tmp.length; i++) {
+                    tmp2 = tmp[i].split('=');
+                    if (tmp2[1] === undefined) {
+                        args.push(tmp2[0]);
+                    } else {
+                        param[tmp2[0]] = tmp2[1];
+                    }
+                }
+            }
+            return [args, param];
         }
+        params = getParam();
+    </script>
+    <script>
 
-        a:hover {
-            color: blue;
-            text-decoration-line: underline;
-        }
-
-        a:active {
-            color: orange;
-            text-decoration-line: underline;
-        }
-    </style>
+    </script>
 </head>
 <body>
-    <ul>
-    	<li><a href="game?v1.9">v1.9 (stable respawn without restart in 4 spawnpoints)</a>
-    	<li><a href="game?v1.8">v1.8 (restarting when flip over)</a>
-    	<li><a href="game?v1.7">v1.7 (reloading)</a>
-    	<li><a href="game?v1.6">v1.6 (shooting)</a>
-    	<li><a href="game?v1.5">v1.5 (restart when respawn)</a>
-    	<li><a href="game?v1.4">v1.4 (fps label)</a>
-    	<li><a href="game?v1.3">v1.3 (tower for tank)</a>
-    	<li><a href="game?v1.2">v1.2 (skybox and light)</a>
-    	<li><a href="game?v1.1">v1.1 (respawn)</a>
-	<li><a href="game?v1.0">v1.0 (tank and map)</a>
-    </ul>
+<table>
+    <tr class="menu"><td width="10%"></td><td>
+        <a href="?">
+            <img src="logo-mp.png" class="logo-mp">
+        </a>
+        <!--<a href="?book">Учебник по Unity</a>-->
+    </td><td width="10%"></td></tr>
+    <tr>
+        <td></td><td id="page"></td><td></td>
+    </tr>
+</table>
+<script>
+    var page = new XMLHttpRequest();
+    if (params[0][0] == undefined) {
+        page.open('GET', "mp.html", false);
+    } else if (params[0][0] == "project") {
+        page.open('GET', "projects/index.html", false);
+    } else if (params[0][0] == "book") {
+        page.open('GET', "book/index.html", false);
+    }
+    page.send();
+    pageTarget = document.getElementById("page");
+    pageTarget.innerHTML = (page.status == 200)?page.responseText:"<b style='color:red'>Uploading page template: Error " + page.status + "</b>";
+
+    if (params[0][0] == "project") {
+        document.write("<script src='projects/.sys/UnityProgress.js'></" + "script>")
+        id = params[0][1];
+        var configR = new XMLHttpRequest();
+        configR.open('GET', "projects/" + id + "/config.txt", false);
+        configR.send();
+        if (configR.status != 200) {
+            pageTarget.innerHTML = "<b style='color:red'>Uploading project configure file: Error " + configR.status + "</b>";
+        } else {
+            config = configR.responseText.split("\n");
+            projectTitle = document.getElementById("game-title");
+            projectTitle.innerHTML = config[0];
+            document.write("<script src='projects/" + id + "/Build/UnityLoader.js'></"+"script>");
+
+            var aboutR = new XMLHttpRequest();
+            aboutR.open('GET', "projects/" + id + "/description.html", false);
+            aboutR.send();
+            about = document.getElementById("game-description");
+            if (aboutR.status == 200) {
+                about.innerHTML = aboutR.responseText;
+            } else if (aboutR.status = 404) {
+                about.innerHTML = "<b style='color:grey'>There no description</b>"
+            } else {
+                about.innerHTML = "<b style='color:red'>Uploading project description: Error " + configR.status + "</b>";
+            }
+        }
+    }
+
+</script>
+<script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "projects/" + id + "/Build/data.json", {onProgress: UnityProgress});
+</script>
 </body>
 </html>

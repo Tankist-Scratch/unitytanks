@@ -1,0 +1,73 @@
+body {
+    margin:0px;
+}
+a {
+    text-decoration:none;
+    color:blue;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+
+a:active {
+    text-decoration:underline;
+    color:orange;
+}
+
+body > table {
+    width:100%;
+    min-width:1200px;
+    border-collapse:collapse
+}
+
+body > table tr.menu {
+    height:40px;
+    background-color:#55f;
+    color:white;
+}
+
+body > table tr.menu img.logo-mp {
+    height:40px;
+}
+
+body > table tr.menu a {
+    display:inline-block;
+    color:white;
+    vertical-align:middle;
+}
+body > table tr.menu div.separator {
+    width:1px;
+    height:100%;
+    background-color:#fff;
+    display:inline-block;
+}
+
+body > table #page > center > #game-title {
+    font-size:30px;
+}
+
+body > table #page > center > div.gameContainer {
+    border:2px solid #55f;
+    width: 960px;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+body > table #page > center > div.gameContainer > #gameContainer {
+    width: 960px;
+    height: 600px;
+}
+
+body > table #page > center > #game-description {
+    width:960px;
+    border:2px dotted #aaa;
+    vertical-align:top;
+    min-height:200px;
+    text-align:start;
+}
+
+/*body > table #page > table.game #game-developing {
+    height:100px;
+}*/
