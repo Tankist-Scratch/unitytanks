@@ -1,5 +1,6 @@
 body {
     margin:0px;
+    text-align:center;
 }
 a {
     text-decoration:none;
@@ -16,51 +17,60 @@ a:active {
     color:orange;
 }
 
-body > table {
+body > div.menu {
     width:100%;
-    min-width:1200px;
-    border-collapse:collapse
-}
-
-body > table tr.menu {
     height:40px;
     background-color:#55f;
     color:white;
 }
 
-body > table tr.menu img.logo-mp {
-    height:40px;
+body > div.menu > div.menu {
+    width:964px;
+    vertical-align:middle;
+    text-align:start;
+    margin:auto;
 }
 
-body > table tr.menu a {
+body > div.menu > div.menu > a {
     display:inline-block;
     color:white;
     vertical-align:middle;
 }
-body > table tr.menu div.separator {
+
+body > div.menu > div.menu img.logo-mp {
+    height:40px;
+}
+
+body > div.menu > div.menu > div.separator {
     width:1px;
     height:100%;
     background-color:#fff;
     display:inline-block;
 }
 
-body > table #page > center > #game-title {
+body > #page {
+    margin:auto;
+    width:964px;
+    text-align:start;
+}
+
+body > #page > #game-title {
     font-size:30px;
 }
 
-body > table #page > center > div.gameContainer {
+body > #page > div.gameContainer {
     border:2px solid #55f;
     width: 960px;
     height: 600px;
     margin-bottom: 10px;
 }
 
-body > table #page > center > div.gameContainer > #gameContainer {
+body > #page > div.gameContainer > #gameContainer {
     width: 960px;
     height: 600px;
 }
 
-body > table #page > center > #game-description {
+body > #page > #game-description {
     width:960px;
     border:2px dotted #aaa;
     vertical-align:top;
@@ -72,12 +82,13 @@ body > table #page > center > #game-description {
     height:100px;
 }*/
 
-#gameContainer .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
-#gameContainer .logo {background: url('projects/sys/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
-#gameContainer .progress {height: 18px; width: 141px; margin-top: 90px;}
-#gameContainer .progress .empty {background: url('projects/sys/progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
-#gameContainer .progress .full {background: url('projects/sys/progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+body > #page > div.gameContainer > #gameContainer .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+body > #page > div.gameContainer > #gameContainer .logo {background: url('projects/sys/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+body > #page > div.gameContainer > #gameContainer .progress {height: 18px; width: 141px; margin-top: 90px;}
+body > #page > div.gameContainer > #gameContainer .progress .empty {background: url('projects/sys/progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+body > #page > div.gameContainer > #gameContainer .progress .full {background: url('projects/sys/progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
 
-#gameContainer .logo.Dark {background-image: url('projects/sys/progressLogo.Dark.png');}
-#gameContainer .progress.Dark .empty {background-image: url('projects/sys/progressEmpty.Dark.png');}
-#gameContainer .progress.Dark .full {background-image: url('projects/sys/progressFull.Dark.png');}
+body > #page > div.gameContainer > #gameContainer .logo.Dark {background-image: url('projects/sys/progressLogo.Dark.png');}
+body > #page > div.gameContainer > #gameContainer .progress.Dark .empty {background-image: url('projects/sys/progressEmpty.Dark.png');}
+body > #page > div.gameContainer > #gameContainer .progress.Dark .full {background-image: url('projects/sys/progressFull.Dark.png');}
+body > #page .fullscreen {background-image: url('projects/sys/fullscreen.png'); width: 38px; float: right; height:38px;}
