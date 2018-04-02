@@ -71,3 +71,13 @@ body > table #page > center > #game-description {
 /*body > table #page > table.game #game-developing {
     height:100px;
 }*/
+
+#gameContainer .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+#gameContainer .logo {background: url('projects/sys/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+#gameContainer .progress {height: 18px; width: 141px; margin-top: 90px;}
+#gameContainer .progress .empty {background: url('projects/sys/progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+#gameContainer .progress .full {background: url('projects/sys/progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+
+#gameContainer .logo.Dark {background-image: url('projects/sys/progressLogo.Dark.png');}
+#gameContainer .progress.Dark .empty {background-image: url('projects/sys/progressEmpty.Dark.png');}
+#gameContainer .progress.Dark .full {background-image: url('projects/sys/progressFull.Dark.png');}
